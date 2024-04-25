@@ -1,4 +1,5 @@
 div {
+  background-color: #ffffff;
   font-family: Hatton bold, serif;
   font-weight: bold;
       color: rgb(0, 0, 0); }
@@ -12,13 +13,30 @@ img {
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
-  background-color: #740D0D;
+  background-color: #740d0d00;
 }
-div.content {
-  border: 2px solid #740D0D;
-  width: 1243px;
-  height: 200px;
+
+.background {
+  background-image: url"C:\Users\Simis\.vscode\images\Green Modern Minimalist Parfume YouTube Video Ad.gif";
+  background-position: center;
+  background-size: fit;
+  overflow: hidden;
 }
+#selector {
+  width:95%;
+  height:450px;
+}
+. images{
+  background:url('C:\Users\Simis\.vscode\images\perfume YouTube Video Ad.gif') repeat-y 100% 100% fixed;
+  height:100%;
+  width:100%;
+}
+
+#selector {
+  width:95%;
+  height:450px;
+}
+
 
 .flex-container > div {
   background-color: #ffffff;
@@ -37,7 +55,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #ffffff;
 }
 
 div.gallery img {
@@ -54,7 +72,8 @@ div.gallery:hover {
 }
 
 div.border {
-  border: 5px solid #740D0D;
+  border: 5px solid #740d0d42;
+  text-align: center;
   float: left;
   width: 1243px;
 }
@@ -66,6 +85,11 @@ div.footer {
 }
 
   /*
+  div.content {
+  border: 0px solid #740D0D;
+  width: 1243px;
+  height: 200px;
+}
 p { 
   background-color: #f1f1f1;
  padding: 30px;
